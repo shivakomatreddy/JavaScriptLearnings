@@ -1,0 +1,344 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    title Just On Time Freight
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    meta(name='author', content='ppandp')
+    meta(name='Description', content='Just On Time Freight')
+    link(href='css/reset.css', rel='stylesheet', type='text/css', media='screen')
+    link(href='css/contact.css', rel='stylesheet', type='text/css', media='screen')
+    link(href='css/styles.css', rel='stylesheet', type='text/css', media='screen')
+    link(href='css/print.css', rel='stylesheet', type='text/css', media='print')
+    link(href='css/flexslider.css', rel='stylesheet', type='text/css', media='screen')
+    link(href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,600', rel='stylesheet', type='text/css')
+    link(href='//fonts.googleapis.com/css?family=Lora:400,400italic', rel='stylesheet', type='text/css')
+    link(href='css/jquery.fancybox.css', rel='stylesheet', type='text/css', media='screen')
+    // [if gt IE 8] <!
+    link(href='css/retina-responsive.css', rel='stylesheet', type='text/css', media='screen')
+    // <![endif]
+    //if !IE
+      link(href='css/retina-responsive.css', rel='stylesheet', type='text/css', media='screen')
+    link(href='css/magnific-popup.css', rel='stylesheet', type='text/css', media='screen')
+  body
+    // Preloader
+    #preloader
+      #status
+        .parent
+          .child
+            p.small It's On Time...
+    // end preloader
+    // start header
+    header.clearfix
+      h1#logo
+        a(href='index.html') Just On Time Freight
+      .tagline
+        span Always On Time.
+      #nav-button
+        span.nav-bar
+        span.nav-bar
+        span.nav-bar
+      nav
+        ul#nav
+          li.active
+            a(href='#section1') Home
+            .menu-line
+          li
+            a(href='#services') Services
+            .menu-line
+          li
+            a(href='#team') Team
+            .menu-line
+          li
+            a(href='#quote') Get A Quote
+            .menu-line
+          li
+            a(href='#about') About
+            .menu-line
+          li
+            a(href='#section7') Contact
+            .menu-line
+    // end header
+    section#section1.intro.section(data-speed='10', data-type='background')
+      .overlay#section-1-slider
+        #headline_cycler
+          ul.flexslider
+            li.slide.first
+              h2#first_title first slide title.
+              p#first_tag Our Way Is The Just On Time Way.
+            li.slide
+              h2#second_title An Awesome Load
+              p#second_tag Our Way Is The Just On Time Way.
+            li.slide
+              h2#third_title Endless Possibilities
+              p#third_tag Our Way Is The Just On Time Way.
+      a#arrow-down.aligncenter(href='#services', data-title='') Get started
+    section#team.section
+      .container.clearfix
+        .col1-1
+          h3 Downloads
+          .roman-number
+            .lines
+            span i
+        .col1-1
+          p.sub-heading Click to download these documents.
+        .col1-1
+          .info_panel
+            .sub-heading.centralizer(style='margin-top:-35px;')
+              a.button(href='http://www.jotfreight.com/bill_of_lading.pdf', target='_blank') Bill Of Lading
+              a.button(href='http://www.jotfreight.com/canada_customs_invoice.pdf', target='_blank', style='margin-left:10px;') Custom Document
+    section#services.section.grey
+      #ancor3
+      .container.clearfix#section-3
+        .col1-1
+          h3 Our Services
+          .roman-number
+            .lines
+            span ii
+        .col1-1
+          p.sub-heading
+            | We are absolutely passionate about simple yet sophisticated user experience that we, and our clients, are very proud of.
+          p.grey#section-3-header
+            | JOT Freight is a Full Service freight management transportation company located in the Greater Toronto Area of Ontario in Canada. We operate a fleet of both 53’ trailers and 24’ expedited straight trucks. Our main area of service is from Ontario to the United States. We provide LTL, FTL and EXPEDITED services on a daily basis. We have all the resources, experience and service platform that allows JOTFS to deliver competitively priced shipping services throughout North America.
+          p.grey#section3-sub-content-1
+            span(style='font-weight:bold;') Use Of Innovative Transportant Technology
+            br
+            |         Containerized shipping is not the only transportation industry to benefit from advanced technology. Just on Time Freight Systems Inc., Brampton, Ontario, Canada, is making the most of recent research into intelligent transportation systems (ITS), which incorporates advanced navigation, route guidance, communication, sensor and computer technologies. JOTFS is applying ITS to a broad range of transportation systems to improve accessibility, sustainability, productivity and safety. Automatic Vehicle Identification (AVI) technology, which speeds the movement of truck traffic across the borders, is one example of how ITS is being applied. Canada, the United States and Mexico have a pilot project underway to test the feasibility of AVI technology by allowing trucks specially equipped with transponders to pass through border crossings without stopping. This means that in the near future, only truck that don’t meet pre-clearance requirements, and those chosen for random inspection, will be required to stop for inspection at borders. The time savings will make a significant difference to shippers, especially those hauling perishable goods.
+          p.grey#section3-sub-content-2
+            span(style='font-weight:bold;') Competitive Rates & Services
+            br
+            |         Containerized shipping is not the only transportation industry to benefit from advanced technology. Just on Time Freight Systems Inc., Brampton, Ontario, Canada, is making the most of recent research into intelligent transportation systems (ITS), which incorporates advanced navigation, route guidance, communication, sensor and computer technologies. JOTFS is applying ITS to a broad range of transportation systems to improve accessibility, sustainability, productivity and safety. Automatic Vehicle Identification (AVI) technology, which speeds the movement of truck traffic across the borders, is one example of how ITS is being applied. Canada, the United States and Mexico have a pilot project underway to test the feasibility of AVI technology by allowing trucks specially equipped with transponders to pass through border crossings without stopping. This means that in the near future, only truck that don’t meet pre-clearance requirements, and those chosen for random inspection, will be required to stop for inspection at borders. The time savings will make a significant difference to shippers, especially those hauling perishable goods.
+          ul.service_box
+            li.service_item(style='cursor:pointer;')
+              .icon_box.works
+              p.service_name Expedited Road Service
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+                li Quisque sed enim
+            li.service_item(style='cursor:pointer;')
+              .icon_box.delivery
+              p.service_name Truck Load & LTL
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+            li.service_item(style='cursor:pointer;')
+              .icon_box.box
+              p.service_name Warehousing
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+            li.service_item(style='cursor:pointer;')
+              .icon_box.map
+              p.service_name Worldwide Air & Ocean
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+            li.service_item(style='cursor:pointer;')
+              .icon_box.network
+              p.service_name Logistic Trucks With Deckings & Straps
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+            li.service_item(style='cursor:pointer;')
+              .icon_box.time
+              p.service_name 24 Hour Dispatch
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+            li.service_item(style='cursor:pointer;')
+              .icon_box.smartphone
+              p.service_name Cell Phone & Satellite Tracking
+              ul.service_details
+                li Lorem ipsum dolor
+                li Mauris ut tortor
+                li Quisque varius ornare
+    section#team.section
+      .container.clearfix#section-4
+        .col1-1
+          h3 Our Team
+          .roman-number
+            .lines
+            span iii
+        .col1-1
+          p.sub-heading Meet our professionals. We strive for 100% customer satisfaction.
+        .col1-3
+          .info_panel
+            h4 Ken Doulat
+            p President/Sales
+            br
+        .col1-3
+          .info_panel
+            h4 Nick Nijjar
+            p Dispatcher
+            br
+        .col1-3
+          .info_panel
+            h4 Mohamed Aziz
+            p Dispatcher
+            br
+        .col1-3
+          .info_panel
+            h4 Marlaine Albert 
+            p Sales
+            br
+        .col1-3
+          .info_panel
+            h4 Kamal Rattu
+            p Accounts
+            br
+        .col1-3
+          .info_panel
+            h4 Suren Doulat
+            p Accounts
+            br
+      .container.clearfix
+        .col1-1
+          #quotes_slider_container
+            .flexslider.clearfix
+              blockquote.quote_slide
+                p
+                  | "My expectations were surpassed. We are so glad we booked Tim for our new project."
+                p
+                  a(href='#') Pomade Inc.
+              blockquote.quote_slide
+                p
+                  | "My expectations were surpassed. We are so glad we booked Tim for our new project."
+                p
+                  a(href='#') Apple Inc.
+              blockquote.quote_slide
+                p
+                  | "My expectations were surpassed. We are so glad we booked Tim for our new project."
+                p
+                  a(href='#') Microsoft
+    section#quote.section.pic
+      #ancor5
+      .container.clearfix
+        .col1-1
+          h3(style='color:#fff;') Get A Quote
+        .col1-1
+          p.sub-heading.extra_spacing
+            a.call(href='quote.html') NOW
+    section#about.section
+      #ancor6
+      .container.clearfix
+        .col1-1.centered
+          .icon_box.social
+          p.stand-alone
+            | Get in touch with us through social media! 
+            br
+            |         Visit our 
+            a(href='blog.html')
+              | Facebook 
+              span.arrow →
+      br
+      br
+      br
+      #ancor2
+      .container.clearfix#section-6
+        .col1-1
+          h3 About Us
+          .roman-number
+            .lines
+            span iv
+        .col1-1
+          p.sub-heading We deliver on our promises.
+        .col1-1.grey
+          p
+            | JUST ON TIME (JOT) FREIGHT SYSTEMS INC. à the road specialists. We have the connections to move your shipment by road, seamlessly and efficiently. We are fully licensed, insured and bonded. When we transport your shipment you are assured that the logistics of delivery and distribution are taken care of to last detail. Those are our ground rules and we do what it takes to deliver to your complete satisfaction.
+          p
+            | Brampton, Ontario Canada based JUST ON TIME (JOT) FREIGHT SYSTEMS INC offers a wide range of truckload Freight Shipping Services , which are described in detail to assist you in making the decision to order your next freight load service from JUST ON TIME (JOT) FREIGHT SYSTEMS INC .
+            | JUST ON TIME (JOT) FREIGHT SYSTEMS INC . offers competitive rates across North America with specialized services in how your truckload freight can be optimized for volume loads and cost savings within our thin-wall freight cargo vans , and enclosed trailers for cost efficient freight shipping practices. Our use of extra wide trailer width improves volume efficiency and helps to reduce potential for cargo damage when loading and unloading freight.
+          p
+            | JUST ON TIME (JOT) FREIGHT SYSTEMS INC . is a privately owned, trucking company employs more than 50 staff members, supporting 37 tractors and more than 35 trailers, as well as coordinating the shipping freight services of private, owner/operator JOT associates.
+            | JOTFS - COMMITMENT ... 24/7 customer focus. We are in the business of simplifying your transportation arrangements. With on-line ordering, and customized service schedules, as well as accurate, concise billing and documentation, the JUST ON TIME FREIGHT SYSTEMS INC. system is an easier, faster, customer friendly way of delivering your goods.
+            | JOTFS . - EXPERIENCE ... hands-on, miles ahead, large loads or small, routine or emergency, across town or across the country. We have years of experience to handle all situations.
+          p
+            | JOTFS strongly believes in building long term and strong business relations with our valued clients. Each of our customers big or small is very important to us.
+            | JUST ON TIME FREIGHT SYSTEMS INC. - has the experience to deliver satisfaction. We believe the best route to customer satisfaction is through direct action. That means we deliver on our promises. It also means we work extra hard so you don't have to. Whether it’s an emergency shipment or a long term contract, shipping is easy when you have the JUST ON TIME FREIGHT SYSTEMS INC. for it and the resources to safely expedite your shipments on time, all the time JUST ON TIME FREIGHT SYSTEMS INC.
+    section#section7.section.grey
+      #ancor7
+      .container.clearfix
+        .col1-1
+          h3 Contact Us
+          .roman-number
+            .lines
+            span v
+        .col1-1
+          p.sub-heading.extra_spacing
+            | Get in touch via contact form or email us directly. We will get back to you as soon as possible.
+        .col2-3.col1-3m
+          #contact
+            form#contactform(method='post', action='contact.php', name='contactform', autocomplete='off')
+              fieldset
+                label(for='name', accesskey='U')
+                  span.required Your Name
+                input#name(name='name', type='text', size='30', title='Your Name')
+                label(for='email', accesskey='E')
+                  span.required Email
+                input#email(name='email', type='text', size='30', title='Email')
+                label(for='comments', accesskey='C')
+                  span.required Tell us what you think!
+                textarea#comments(name='comments', cols='40', rows='3', title='Tell us what you think!')
+                input#submit.submit(type='submit', value='Submit')
+                span#message
+        .col1-3
+          .info_panel
+            h4 Where
+            p#where-section
+              | Just On Time Freight
+              br
+              |           95 Hedgedale Road, Unit # 3-4
+              br
+              |           Brampton, ON L6T 5P3 Canada
+            h4 Say Hello
+            p#contact-info-section
+              | Email: 
+              a.email_link(title='Email', href='mailto:info@jotfreight.com') info@jotfreight.com
+              br
+              |           Phone: (905) 846-9552 
+              br
+              |           Fax : (905) 846-9882
+            a(data-title='Google Maps', target='_blank', href='https://goo.gl/maps/qn1Zw')
+              .map
+                span Google Maps
+                span.arrow →
+    footer
+      .container.clearfix#footer-section
+        p
+          span.alignleft.small#copyright-section
+            | Copyright © 
+            script(language='JavaScript', type='text/javascript').
+              document.write((new Date()).getFullYear());
+            |  Just On Time Freight. All rights reserved. Designed & Developed by 
+            a(href='http://www.ankitdesigns.com') Ankit Designs
+            | .
+          span.alignright.small
+            | Visit Our 
+            a.social_icon.instagram(href='#', target='_blank')
+    script(src='js/modernizr.custom.js', type='text/javascript')
+    script(src='js/jquery-1.9.1.min.js', type='text/javascript')
+    script(src='js/jquery-easing-1.3.js', type='text/javascript')
+    script(src='js/retina.js', type='text/javascript')
+    script(src='js/jquery.touchSwipe.min.js', type='text/javascript')
+    script(src='js/jquery.nav.js', type='text/javascript')
+    script(src='js/input.fields.js', type='text/javascript')
+    script(src='js/jquery.form.js', type='text/javascript')
+    script(src='js/jquery.fancybox.pack.js', type='text/javascript')
+    script(src='js/preloader.js', type='text/javascript')
+    script(src='js/jquery.parallax.js', type='text/javascript')
+    script(src='js/responsive-nav.js', type='text/javascript')
+    script(src='js/SmoothScroll.js', type='text/javascript')
+    script(src='js/jquery.flexslider-min.js', type='text/javascript')
+    script(src='js/jquery.sticky.js', type='text/javascript')
+    script(src='js/jquery.magnific-popup.min.js', type='text/javascript')
+    script(src='js/general.js', type='text/javascript')
+    script(src='js/slideshow.js', type='text/javascript')
+    script(src='javascripts/populate.js', type='text/javascript')
+    

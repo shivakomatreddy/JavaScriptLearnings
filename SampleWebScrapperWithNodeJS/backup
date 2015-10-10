@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+          for(var i=0;i<grid_items.length;i++){
+                var grid_item = $(grid_items[i]);
+                title = grid_item.find('.product-tile__product-name > a').text();
+                farmer = grid_item.find('.product-tile__producer-name').text();
+              
+                var dollars = grid_item.find('.product-tile__purchase-price').find('.dollars').text();
+                var cents = grid_item.find('.product-tile__purchase-price').find('.cents').text();
+                price = "$" + dollars + "." + cents;
+
+                image = grid_item.find('.product-tile__product-photo').attr('src');
+
+                json.title = title;
+                json.farmer = farmer;
+                json.price = price;
+                json.image = "https:" + image;
+
+                var seperator = '';
+                if(i > 0){
+                  seperator = ',\n';
+                }
+
+                fs.appendFile('output.json',seperator + JSON.stringify(json,null,4));
+                json = {title: "", farmer: "", price: ""};
+          }

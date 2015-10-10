@@ -1,0 +1,44 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Contact Us 
+    link(rel='stylesheet', type='text/css', href='/css/view.css', media='all')
+    script(type='text/javascript', src='/js/view.js')
+  body#main_body
+    img#top(src='/images/form_images/top.png', alt='')
+    #form_container
+      h1
+        a Contact Us 
+      form#form_969138.appnitro(method='post', action='')
+        .form_description
+          h2 Contact Us 
+          p Edit Contact Us Section
+        ul
+          li#li_1
+            label.description(for='element_1') Where 
+            div
+              textarea#where.element.textarea.medium(name='element_1')
+            p#guide_1.guidelines
+              small Where section content
+          li#li_2
+            label.description(for='element_2') Email 
+            div
+              input#email.element.text.large(name='element_2', type='text', maxlength='255', value='')
+          li#li_3
+            label.description(for='element_3') Phone 
+            div
+              input#phone.element.text.large(name='element_3', type='text', maxlength='255', value='')
+          li#li_4
+            label.description(for='element_4') Fax 
+            div
+              input#fax.element.text.large(name='element_4', type='text', maxlength='255', value='')
+          li.buttons
+            input(type='hidden', name='form_id', value='969138')
+            input#saveFormContactUs.button_text(type='submit', name='submit', value='Submit')
+      #footer
+        | Powered by 
+        a(href='http://ankitdesigns.com') Ankit Designs
+    img#bottom(src='/images/form_images/bottom.png', alt='')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    script(type='text/javascript', src='/javascripts/update.js')

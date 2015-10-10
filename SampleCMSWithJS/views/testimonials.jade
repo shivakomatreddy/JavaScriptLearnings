@@ -1,0 +1,49 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Edit -Testimonials Section
+    link(rel='stylesheet', type='text/css', href='/css/view.css', media='all')
+    script(type='text/javascript', src='/js/view.js')
+  body#main_body
+    img#top(src='/images/form_images/top.png', alt='')
+    #form_container
+      h1
+        a Edit -Testimonials Section
+      form#form_977891.appnitro(method='post', action='')
+        .form_description
+          h2 Edit -Testimonials Section
+          p Add/Remove Testimonials
+        ul#testimonials
+          li#li_1
+            label.description(for='element_3') Number of Testimonials 
+            div
+              select#numberOfTestimonials.element.select.medium(name='element_3')
+                option(value='', selected='selected')
+                option(value='1') 1
+                option(value='2') 2
+                option(value='3') 3
+                option(value='4') 4
+                option(value='5') 5
+            p#guide_3.guidelines
+              small Choose the number of testimonials          
+          li#li_4
+            label.description(for='element_4') Enable/Disable - Testimonial Section 
+            span
+              input#element_4_1.element.checkbox(name='element_4_1', type='checkbox', value='1')
+              label.choice(for='element_4_1') disable
+            p#guide_4.guidelines
+              small
+                | To Enable : keep the check box empty
+                | To Disable : check the check box
+          li.buttons
+            input(type='hidden', name='form_id', value='977891')
+            input#clearFormTestimonials.button_text(type='button', name='clear', value='Clear')
+            input#modifyFormTesimonials.button_text(type='button', name='modify', value='Modify')
+            input#saveFormTestimonials.button_text(type='submit', name='submit', value='Submit')
+      #footer
+        | Powered by 
+        a(href='http://ankitdesigns.com') Ankit Designs
+    img#bottom(src='/images/form_images/bottom.png', alt='')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    script(type='text/javascript', src='/javascripts/update.js')

@@ -1,0 +1,50 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Edit - Services
+    link(rel='stylesheet', type='text/css', href='/css/view.css', media='all')
+    script(type='text/javascript', src='/js/view.js')
+  body#main_body
+    img#top(src='/images/form_images/top.png', alt='')
+    #form_container
+      h1
+        a Edit - Services
+      form#form_977710.appnitro(method='post', action='')
+        .form_description
+          h2 Edit - Services
+          p Edit Service's Section
+        ul
+          li#li_2
+            label.description(for='element_2') Services 
+            div
+              select#element_2.element.select.medium(name='element_2')
+                option(value='', selected='selected')
+                option(value='1') 1
+                option(value='2') 2
+                option(value='3') 3
+                option(value='4') 4
+                option(value='5') 5
+                option(value='6') 6
+            p#guide_2.guidelines
+              small Choose the number of services
+          li#li_3
+            label.description(for='element_3') Choose Image 
+            div
+              select#element_3.element.select.medium(name='element_3')
+                option(value='', selected='selected')                
+          li#li_1
+            label.description(for='element_1') Service Name/Type 
+            div
+              input#element_1.element.text.medium(name='element_1', type='text', maxlength='255', value='')
+          li.buttons
+            input(type='hidden', name='form_id', value='977710')
+            input#modifyForm.button_text(type='button', name='modify', value='Modify')
+            input#saveForm.button_text(type='submit', name='submit', value='Submit')
+      #footer
+        | Powered by 
+        a(href='http://ankitdesigns.com') Ankit Designs
+    img#bottom(src='/images/form_images/bottom.png', alt='')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+    script(type='text/javascript', src='/javascripts/update.js')
+

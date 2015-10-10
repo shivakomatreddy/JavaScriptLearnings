@@ -1,0 +1,76 @@
+<section data-ng-controller="PostsController as postsCtrl" data-ng-init="find()">
+    <div class="page-header">
+        <h1>Posts</h1>
+        <div class="row" style="margin-bottom:25px; margin-top:20px;">    
+            <div class="col-lg-8">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for a post">
+                <span class="input-group-btn">
+                  <button class="btn btn-success btn-block" type="button">SEARCH</button>
+                </span>
+              </div>
+            </div> 
+            <div class="col-sm-1">
+              <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Category
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Shirts</a></li>        
+                    <li><a href="#">Pants</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-sm-1" style="margin-left:20px;">
+                <div class="dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Gender
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Male</a></li>
+                    <li><a href="#">Female</a></li>
+                  </ul>
+              </div>
+            </div> 
+        </div>
+    </div>
+    <div class="list-group"> 
+          <div class="form-group">
+            <div data-ng-show="error" class="text-center text-danger">
+                <div class="alert alert-danger" role="alert" data-ng-hide="!posts.$resolved || posts.length">
+                    <strong data-ng-bind="error">
+                        No Posts yet, why don't you <a href="/#!/posts/create">create one</a>
+                    </strong>
+                </div>
+            </div>
+          </div>         
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>User</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Gender</th>
+                <th>Created</th>
+                <th>Email</th>
+                <th>Phone</th>
+              </tr>
+            </thead>
+            <tbody data-ng-repeat="post in postsCtrl.posts">
+              <tr>
+                <td>{{post.user.displayName}}</td>
+                <td><a data-ng-href="#!/posts/{{post._id}}">{{post.title}}</a></td>
+                <td>{{post.description}}</td>
+                <td>{{post.category}}</td>
+                <td>{{post.price | currency}}</td>
+                <td>{{post.gender}}</td>
+                <td>{{post.created | date:'medium'}}</td>
+                <td>{{post.email}}</td>
+                <td>{{post.phone}}</td>
+              </tr>     
+            </tbody>
+          </table>
+    </div>
+</section>

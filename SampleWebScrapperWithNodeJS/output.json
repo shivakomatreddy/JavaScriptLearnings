@@ -1,0 +1,72 @@
+{
+    "title": "Winter Fruit Selection",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$27.53",
+    "image": "https://goodeggs1.imgix.net/product_photos/1E2YImQRPyOTbX33tCTw_FruitBundle-1.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Mixed Citrus Medley",
+    "farmer": "Thomas Becnel Citrus Farms Inc.",
+    "price": "$8.49",
+    "image": "https://goodeggs2.imgix.net/product_photos/ZO2U1efQL6YuBy8P55xw_CitrusBundle-3.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "ABC Juicing Bundle",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$24.32",
+    "image": "https://goodeggs1.imgix.net/product_photos/XOAizsgzTCikR2reKZrp_ABCJuiceBundleW-Galangal-2.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Weekend Breakfast",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$27.96",
+    "image": "https://goodeggs2.imgix.net/product_photos/S0GT0QoQ0msfdRMgbbeM_BreakfastBundle-2.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Fish Taco Night (GF)",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$31.43",
+    "image": "https://goodeggs2.imgix.net/product_photos/niKqGHFyR5CIMQKWRmvy_GFTacoBundle-2.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Weekly Snack Pack",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$33.30",
+    "image": "https://goodeggs1.imgix.net/product_photos/wPAk5cPMS4yLezGyXDgf_SnackBundle-1.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Taste of the South",
+    "farmer": "Good Eggs Bundles NOLA",
+    "price": "$27.96",
+    "image": "https://goodeggs1.imgix.net/product_photos/RzOEcwaDTomXFo9DLCuW_TasteoftheSouth-3.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Veggie Trio",
+    "farmer": "Bartlett Farm",
+    "price": "$7.99",
+    "image": "https://goodeggs2.imgix.net/product_photos/qyo3yExFSmpL50vhc5nA_Trio_2013_04_19.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Vegetable Duo",
+    "farmer": "Vintage Garden Kitchen & Farms",
+    "price": "$8.99",
+    "image": "https://goodeggs1.imgix.net/product_photos/7EeZHzxoSEiM17w9eolK_VeggieDuo2.JPG?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Produce Bundle",
+    "farmer": "Stoney Point Farm",
+    "price": "$19.99",
+    "image": "https://goodeggs2.imgix.net/product_photos/6lA8gbMSR1Cu3XMqdLxA_StoneyPointBundlePEARS-2.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Weekly Produce Box",
+    "farmer": "Hollygrove Market & Farm",
+    "price": "$30.99",
+    "image": "https://goodeggs1.imgix.net/product_photos/PqURFdbvQvyCyJmKdb3p_0515HollyGrove0087.jpg?w=560&h=350&fm=jpg&q=41&fit=crop"
+},
+{
+    "title": "Weekly VEGGISUA Super Produce Box",
+    "farmer": "VEGGI Farmers Cooperative",
+    "price": "$34.99",
+    "image": "https://goodeggs1.imgix.net/product_photos/cMcxbhz0TfeKiyuNRALL_CSA%20Produce%20Box1.JPG?w=560&h=350&fm=jpg&q=41&fit=crop"
+}

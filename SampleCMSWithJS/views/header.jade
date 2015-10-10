@@ -1,0 +1,36 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Header
+    link(rel='stylesheet', type='text/css', href='/css/view.css', media='all')
+    script(type='text/javascript', src='/js/view.js')
+  body#main_body
+    img#top(src='/images/form_images/top.png', alt='')
+    #form_container
+      h1
+        a Header
+      form#form_967820.appnitro(enctype='multipart/form-data', method='post', action='/cms/upload/photo')
+        .form_description
+          h2 Header
+          p Edit the main header
+        ul
+          li#li_1
+            label.description(for='element_1') Header Logo Retina Image
+            div
+              input#element_1.element.file(name='element_1', type='file')
+          li#li_2
+            label.description(for='element_1') Header Logo Non Retina Image
+            div
+              input#element_1.element.file(name='element_1', type='file')
+          li#li_3
+            label.description(for='element_2') Slogan Text 
+            div
+              input#element_2.element.text.medium(name='element_2', type='text', maxlength='255', value='')
+          li.buttons
+            input(type='hidden', name='form_id', value='967820')
+            input#saveForm.button_text(type='submit', name='submit', value='Submit')
+      #footer
+        | Powered by 
+        a(href='http://ankitdesigns.com') Ankit Designs
+    img#bottom(src='/images/form_images/bottom.png', alt='')
